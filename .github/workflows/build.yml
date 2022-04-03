@@ -33,7 +33,7 @@ jobs:
       matrix:
         BOARD: [rock-3a]
         DISTRO: [armbian]
-        FLAVOR: [debian]
+        FLAVOR: [debian, ubuntu]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
