@@ -31,7 +31,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [rock-3a]
+        BOARD: [renegade]
         DISTRO: [armbian]
         FLAVOR: [debian, ubuntu]
     steps:
